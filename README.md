@@ -75,3 +75,11 @@ Re-run the installation. This will let pip find a compatible combination of all 
 
 pip install -r requirements.txt
 ---
+
+dvc init
+
+create a folder as "local_s3" (temporary work)
+dvc remote add -d mylocal local_s3
+
+
+
