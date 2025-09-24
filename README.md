@@ -3,6 +3,8 @@ end to end NLP Pipeline of Movie review
 
  'conda create -n movie-review python=3.13 -y (⚠️ Until stable release + community support, Python 3.13 is not ready for production. I got so many errors while installing necessary pacakges....so I had de-activated conda environment and i deleted that environment)'
 
+DVC, MLOPS present in this project
+
 
 conda clean --all -y  
 
@@ -96,9 +98,13 @@ dvc commit
 
 dvc push
 
+---
+flask app added
+
 python flask_app/app.py
 
 http://127.0.0.1:5000
 
+---
 
 
