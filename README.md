@@ -81,5 +81,24 @@ dvc init
 create a folder as "local_s3" (temporary work)
 dvc remote add -d mylocal local_s3
 
+dvc repro
+
+git add 'data/.gitignore' 'models/.gitignore' dvc.lock 'reports/.gitignore'
+
+dvc config core.autostage true
+
+dvc push
+
+dvc remote list
+
+
+dvc commit
+
+dvc push
+
+python flask_app/app.py
+
+http://127.0.0.1:5000
+
 
 
