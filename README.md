@@ -44,7 +44,6 @@ pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 ---
----
 ## Using DVC
 
 Initialize and configure DVC remote storage:
@@ -194,12 +193,12 @@ pip install -r requirements.txt
 
 pip install --only-binary :all: -r requirements.txt
 ```
----
+
 edit requirements.txt 
 Change the line matplotlib==3.9.1 to matplotlib==3.9.4 or simply matplotlib to let pip choose the newest compatible version.
 
 pip install -r requirements.txt
-----
+
 Edit your requirements.txt file. Find the line for hydra-core.
 Change the version constraint to a more recent one, or remove the version to get the latest.
 Original: hydra-core==1.3.2
