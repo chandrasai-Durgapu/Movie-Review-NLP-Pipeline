@@ -89,6 +89,19 @@ http://127.0.0.1:5000
 
 
 ---
+## 🌐 MLflow Experiment Tracking with DAGsHub
+
+This project uses **MLflow** to log model experiments and metrics, and integrates with **DAGsHub** for remote tracking and versioning.
+
+### 🔗 MLflow Tracking URI (via DAGsHub)
+
+**Tracking Server:**  
+[https://dagshub.com/chandrasekharcse522/Movie-Review-NLP-Pipeline.mlflow](https://dagshub.com/chandrasekharcse522/Movie-Review-NLP-Pipeline.mlflow)
+
+**DAGsHub Repo:**  
+[https://dagshub.com/chandrasekharcse522/Movie-Review-NLP-Pipeline](https://dagshub.com/chandrasekharcse522/Movie-Review-NLP-Pipeline)
+
+---
 ## Visuals / Examples
 
 | Type     | Example |
