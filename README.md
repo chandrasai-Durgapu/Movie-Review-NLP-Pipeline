@@ -89,6 +89,8 @@ http://127.0.0.1:5000
 
 
 ---
+Images ![Negative Review Example](assets/negative-review-image.png)
+
 ## Troubleshooting / Development Notes
 
 Python 3.13 Compatibility:
