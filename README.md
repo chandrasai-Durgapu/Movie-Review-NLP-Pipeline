@@ -89,7 +89,13 @@ http://127.0.0.1:5000
 
 
 ---
-Images ![Negative Review Example](assets/negative-review-image.png)
+## Visuals / Examples
+
+| Type     | Example |
+|----------|---------|
+| Negative Review Example  | ![Negative Review Example](assets/negative-review-image.png) |
+| Positive Review Example | ![Positive Review Example](assets/positive-review-image-1.png) |
+
 
 ## Troubleshooting / Development Notes
 
